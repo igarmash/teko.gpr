@@ -9,6 +9,9 @@ public class Student extends Person {
         this.Klassenname = Klassenname;
     }
 
+    /**
+    Erweiterung der Superklasse, zusätzlich wird der Klassenname ausgegeben
+     */
     @Override
     public String getVorstellungstext() {
         return super.getVorstellungstext()+" us de Klass "+getKlassenname();

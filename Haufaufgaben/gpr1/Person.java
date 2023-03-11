@@ -3,13 +3,15 @@ public class Person {
     private String vorstellungstext = "Ech be de ";
 
     /**
-     * Die Person stellt sich vor.
+    Ein String mit dem Vorstellungstext generieren
      */
-
     public String getVorstellungstext() {
         return vorstellungstext+name;
     }
 
+    /**
+    Die Person stellt sich vor
+     */
     public void stellDichVor() {
         System.out.println(getVorstellungstext());
     }
